@@ -1,4 +1,4 @@
-public class display {
+public class Display2 {
 public static void showResult(String result) {
 System.out.println("==== 結果発表 ====");
 System.out.println(Player.names[0] + "：" + GameManager.handName(Player.hands[1]));
