@@ -1,3 +1,8 @@
+/**
+ * Judgeクラス
+ * 勝敗判定を担当
+ * 担当者: [あなたの名前]
+ */
 public class Judge {
     // 勝敗判定メソッド
     public static String judgeResult(int iHand1, int iHand2) {

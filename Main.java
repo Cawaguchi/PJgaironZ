@@ -1,4 +1,8 @@
-
+/**
+ * Mainクラス
+ * ゲームの開始・終了処理を担当
+ * 担当者: [あなたの名前]
+ */
 public class Main{
     public static void main(String args[]) {
         // デバッグモードON

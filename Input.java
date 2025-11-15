@@ -1,8 +1,11 @@
 import java.io.Console;
 import java.util.Scanner;
 
-// 担当者の名前を書いてください
-
+/**
+ * Inputクラス
+ * プレイヤーの手の入力を非表示で受け取る
+ * 担当者: [あなたの名前]
+ */
 public class Input {
     public static int getHiddenInput(String iPlayerName) {
         Console tConsole = System.console();
