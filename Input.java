@@ -5,15 +5,15 @@ import java.util.Scanner;
 
 public class Input {
     public static int getHiddenInput(String iPlayerName) {
-        Console console = System.console();
+        Console tConsole = System.console();
         String tInput;
 
-        if (console == null) {
+        if (tConsole == null) {
             System.out.print(iPlayerName + " の手を入力してください (0:グー, 1:チョキ, 2:パー): ");
             tInput = new Scanner(System.in).nextLine();
         } else {
-            char[] chars = console.readPassword(iPlayerName + " の手を入力してください (0:グー, 1:チョキ, 2:パー): ");
-            tInput = new String(chars);
+            char[] tChars = tConsole.readPassword(iPlayerName + " の手を入力してください (0:グー, 1:チョキ, 2:パー): ");
+            tInput = new String(tChars);
         }
 
         //TODO: 範囲checkをしていないので修正する必要がある
