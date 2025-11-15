@@ -1,7 +1,7 @@
 
 public class Main{
     public static void main(String args[]) {
-        GameManager.debugMode = true;
+        GameManager.debugMode=true;
         GameManager.showTitle();
 
         Player.chooseHands();
