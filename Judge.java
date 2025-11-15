@@ -5,9 +5,9 @@ public class Judge {
         } else if ((iHand1 == 0 && iHand2 == 1) 
                     || (iHand1 == 1 && iHand2 == 2) 
                     || (iHand1 == 2 && iHand2 == 0)) {  // プレイヤー1の勝ち
-            return GameManager.makeResultMessage(Player.names[0], true, false);
+            return GameManager.makeResultMessage(Player.sNames[0], true, false);
         } else {    // プレイヤー2の勝ち
-            return GameManager.makeResultMessage(Player.names[1], true, false);
+            return GameManager.makeResultMessage(Player.sNames[1], true, false);
         }
     }
 }
