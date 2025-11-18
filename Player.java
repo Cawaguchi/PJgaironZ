@@ -4,7 +4,7 @@
  * 担当者: [あなたの名前]
  */
 public class Player {
-    public static String sNames[] = {"P1","P2"};
+    public static String sNames[] = {"プレイヤー１","プレイヤー２"};
     public static int sHands[] = new int[2];
 
     // プレイヤーの手を選択するメソッド
